@@ -21,11 +21,11 @@ arguments:
       required: true
       defaultValue: null
       description: List recipients email address to send
-    - name: content_errors
+    - name: message_errors
       type: File
       required: true
       defaultValue: null
-      description: Content of Errors
+      description: Message Errors
 
 artifactsDir: output  
 

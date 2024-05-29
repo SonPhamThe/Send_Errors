@@ -7,12 +7,12 @@
         "value": "thesonpham120499@gmail.com, lailatobine@gmail.com",
         "required": true
     },
-    "content_errors": {
-        "name": "content_errors",
-        "description": "content_errors ",
+    "message_errors": {
+        "name": "message_errors",
+        "description": "Message Errors ",
         "type": "File",
         "direction": "IN",
-        "value": "C:\\Send Errors Or Issue Notification\\content_errors.txt",
+        "value": "C:\\Magento Purchase And Logout\\login_errors.txt",
         "required": true
     }
 }

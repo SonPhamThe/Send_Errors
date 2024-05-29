@@ -32,7 +32,7 @@ Send Errors Or Issue Notifacation
         Append To List    ${list_recipient}    ${recipient}
     END
 
-    ${url_file_text}=    Get In Arg    content_errors
+    ${url_file_text}=    Get In Arg    message_errors
     ${url_file_text_value}=    Set Variable    ${url_file_text}[value]
     ${content_errors}=    Get File    ${url_file_text_value}
 
