@@ -16,11 +16,6 @@ environmentConfigs:
 
 arguments:
   input:
-    - name: file_output
-      type: File
-      required: true
-      defaultValue: null
-      description: File input information product purchased
     - name: recipients_email_address
       type: String
       required: true
@@ -38,6 +33,5 @@ PATH:
   - .
 PYTHONPATH:
   - .
-  - libraries
 ignoreFiles:
   - .gitignore

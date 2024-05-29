@@ -7,20 +7,12 @@
         "value": "thesonpham120499@gmail.com, lailatobine@gmail.com",
         "required": true
     },
-    "file_output": {
-        "name": "file_output",
-        "description": "file_output ",
-        "type": "File",
-        "direction": "OUT",
-        "value": "C:\\Send Result Report Via Email\\data_magento (5).xlsx",
-        "required": true
-    },
     "content_errors": {
         "name": "content_errors",
         "description": "content_errors ",
         "type": "File",
         "direction": "IN",
-        "value": "C:\\Send Result Report Via Email\\email_body.txt",
+        "value": "C:\\Send Errors Or Issue Notification\\content_errors.txt",
         "required": true
     }
 }
